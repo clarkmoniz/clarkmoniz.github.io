@@ -1,101 +1,110 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
-
-    <title>Clark Moniz</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
-    
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-      <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-
-
-    <div class="container">
-    	<div class="col-lg-6 col-lg-offset-3">
-    	
-    		<!-- ===== vCard Navigation ===== -->
-    		<div class="row w">
-    			<div class="col-md-4">
-    				<img class="img-responsive" src="assets/img/avatar.jpg" alt="">
-					<ul class="nav nav-tabs nav-stacked" id="myTab">
-					  <li class="active"><a href="#about">About</a></li>
-					  <li><a href="#projects">Projects</a></li>
-					  <li><a href="#contact">Contact</a></li>
-					</ul>    			
-				</div><!-- col-md-4 -->
-
-    		<!-- ===== vCard Content ===== -->
-    			<div class="col-md-8">
-	    			<div class="tab-content">
-	    			
-	    			  <!-- ===== First Tab ===== -->
-					  <div class="tab-pane active" id="about">
-					  	<h3>Clark Moniz</h3>
-					  	<h5>Web Developer</h5>
-					  	<hr>
-					  	<p>My name is Clark, and I've been interested in coding since I was about 12 years old. Not until just recently I've decided to take on becoming a software engineer. I've learned Ruby, Ruby on Rails, Python, and the Full MEAN stack.</p>
-					  	<p>You can view my resume <a href='ClarkMonizResume.pdf'>here</a></p>
-					  	
-					  </div><!-- tab about -->
-					  
-	    			  <!-- ===== Second Tab ===== -->
-					  <div class="tab-pane" id="projects">
-					  	<h4>Bright Ideas - <a href="https://github.com/clarkmoniz/Bright-Ideas"><b>GitHub</b></a></h4>
-					  	<p class="sm">
-					  		Web app that allows users to post a Bright Idea for other users to see. Has the option to like the bright idea that was posted as well. Created database with controllers and models for a fully functional app within 4.5 hours.
-					  	</p>
-					  </div><!-- Tab Profile -->
-					  
-	    			  <!-- ===== Third Tab ===== -->					 
-					  <div class="tab-pane" id="contact">
-						  <h4>Contact Information</h4>
-						  <hr>
-						  <div class="row">
-							  <div class="col-xs-6">
-								  <p class="sm">
-								  If you'd like to contact me about any project collaboration or potential job email me at <a href="mailto:clarkamoniz@gmail.com">clarkamoniz@gmail.com</a>   
-								  </p>
-							  </div><!-- col-xs-6 --> 
-						  </div><!-- row -->
-					  </div><!-- Tab Contact -->
-					  
-					</div><!-- Tab Content -->
-    			</div><!-- col-md-8 -->
-    		</div><!-- row w -->
-    	</div><!-- col-lg-6 -->
-    </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-	<script>
-	$('#myTab a').click(function (e) {
-	  e.preventDefault()
-	  $(this).tab('show')
-	})	
-	</script>    
-    
-  </body>
+<head>
+    <title>Responsive Layout</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Prociono">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="wrapper"> 
+    <aside  class="nav">
+        <header class="header">
+            <img src="images/avatar.jpg">
+            <h3>Clark Moniz</h3>
+            <h5>Web Developer</h5>
+        </header>
+        <!-- Sidebar content -->
+        <!-- Navigation -->
+        <nav  class="nav-list">
+            <div class="nav-item">
+                <a href="#about">About</a>
+            </div>
+            <div class="nav-item">
+                <a href="#projects">Projects</a>
+            </div>
+            <div class="nav-item">
+                <a href="#contact">Contact</a>
+            </div>
+        </nav> 
+        <footer id="footer" class="clearfix">
+            <div class="footer-item">
+                <a href="https://www.linkedin.com/in/clarkmoniz">
+                    <img src="images/linkedin_icon.png" width="32" height="32" alt="LinkedIn Profile">
+                </a>
+            </div>
+            <div class="footer-item">
+                <a href="https://github.com/clarkmoniz">
+                    <img src="images/github_icon.png" width="32" height="32" alt="GitHub Profile">
+                </a>
+            </div>
+            <div class="footer-item">
+                <a href="mailto:clarkamoniz@gmail.com">
+                    <img src="images/email_icon.png" width="32" height="32"  alt="Email">
+                </a>
+            </div>
+            <div class="footer-item">
+                <a href="content/ClarkMonizResume.pdf">
+                    <img src="images/resume_icon.png" width="32" height="32" alt="LinkedIn Profile">
+                </a>
+            </div>
+        </footer>
+    </aside>
+    <!-- Main Content area -->
+    <main class="content">
+        <!-- About Section -->
+        <section class="selection" id="about">
+            <h3>A couple things about me...</h3>
+            <hr>
+            <p>My name is Clark, and I've recently discovered my love for programming, from creating games to building a fully functional website. I attended a three month bootcamp that helped me find my skills to become a full stack web developer.</p>
+            <p>Lately, I've learned Ruby on Rails, Python and Full MEAN to become a full stack web-developer. I like to practice clean code applied with the best logical approach. I take criticism with an open mind and live to better myself and my code in every way possible. </p>
+            <p>You can view my resume<a href="content/ClarkMonizResume.pdf"> here</a>.
+            </p>
+        </section>
+        <!-- Projects Section -->
+        <section class="selection" id="projects">
+            <h3>Here are some of my projects...</h3>
+            <hr>
+            <!-- First Project -->
+            <div class="project">
+                <h4>masteryDex <small><a href="http://lol-project.heroku.com">Live</a> - <a href="http://github.com/clarkmoniz/lol_project">GitHub</a></small></h4>
+                <span class="sub-text">Ruby on Rails using PostgresSQL</span>
+                <div class="clearfix">
+                    <a href="images/home_page.png" target="_blank">
+                        <img class="four" src="images/home_page.png" alt="masteryDex's home page preview">
+                    </a>
+                    <a href="images/hero_page.png" target="_blank">
+                        <img class="four" src="images/hero_page.png" alt="masteryDex's home page preview">
+                    </a>
+                    <a href="images/graph_one.png" target="_blank">
+                        <img class="four" src="images/graph_one.png" alt="masteryDex's home page preview">
+                    </a>
+                    <a href="images/graph_two.png" target="_blank">
+                        <img class="four" src="images/graph_two.png" alt="masteryDex's home page preview">
+                    </a>
+                </div>
+            </div>
+            <ul class="project-features">
+                <li><p>A web application that allows a League of Legend players to look up theirs or another players Ranked Champions.</p></li>
+                <li><p>Once the Ranked Champions are loaded, the player or summoner is allowed to click on the champions that are highlighted in the Ranked section.</p></li>
+                <li><p>After the specific champion is clicked, the app then redirects to a page graphing their very first ranked match to their lastest ranked match displaying the selected champions progression using a grading algorithm based off their stats for each match.</p></li>
+            </ul>
+            <!-- Second Project -->
+            <div class="project">
+                <h4>Bright Ideas <small><a href="http://github.com/clarkmoniz/Bright-Ideas">GitHub</a></small></h4>
+                <span class="sub-text">Ruby on Rails</span>
+            </div>
+            <ul class="project-features">
+                <li><p>Post any bright idea that comes to mind and read other ideas that are posted.</p></li>
+                <li><p>You are able to comment and like on specific Bright Ideas that you find interesting.</p></li>
+                <li><p>This application was part of a graded test at the bootcamp that I attended and it had to be completed in 4.5 hours or less. I was scored with a passing grade.</p></li>
+            </ul>
+        </section>
+        <section class="section" id="contact">
+            <h3>Contact me...</h3>
+            <hr>
+            <p>If you would like to contact me about any job opportunities, projects, or even just to say hello and chat, you can email me at<a href="mailto:clarkamoniz@gmail.com"> clarkamoniz@gmail.com</a> </p>
+        </section>
+    <main>
+</div>
+</body>
 </html>

@@ -1,0 +1,109 @@
+#wrapper{
+	width: 900px;
+	margin: 0 auto;
+}
+
+aside.nav {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 230px;
+	padding: 10px;
+	text-align: right;
+}
+aside.nav .header {
+	margin: 10px auto 50px;
+}
+aside.nav .header img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+aside.nav #footer {
+	position: absolute;
+	bottom: 15px;
+    
+}
+
+aside.nav .nav-item {
+	margin-bottom: 15px;
+	padding: 5px;
+	letter-spacing: 2px;
+}
+
+aside.nav .footer-item {
+	float: left;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+.content {
+	margin-top: 10px;
+	margin-left: 275px;
+	padding: 10px;
+}
+
+.content .section {
+	margin-bottom: 75px; 
+}
+
+p {
+	margin-bottom: 25px;
+	line-height: 1.5em;
+}
+
+.sub-text {
+	display: block;
+	margin-top: 3px;
+	margin-bottom: 10px;
+	font: 0.8em Prociono, serif;
+	font-style: italic;
+	color: #999;
+}
+
+a {
+	text-decoration: none;
+}
+
+h3 {
+	margin-top: 10px;
+	font-size: 1.5em;
+}
+
+h4 {
+	font-size: 1.05em;
+}
+
+h5 {
+	font-size: 1.1em;
+	font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 5px;
+	font-family: Prociano, serif;
+}
+
+.project-features {
+	list-style: square;
+	margin-left: 30px;
+	font-size: 0.9em;
+	list-style-position: inside;
+}
+.project-features li {
+
+	margin-bottom: 10px;
+}
+
+.project {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.project img.four {
+	width: 25%;
+	float: left;
+}
